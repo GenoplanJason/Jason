@@ -8,18 +8,23 @@
 
 
 import UIKit
+import Material
 
 
 class ViewController: UIViewController {
+    @IBOutlet weak var faltButton: RaisedButton!
 
-    var value = [1, 9, 5, 3, 7]
+    @IBAction func leftSideButtonAction(sender: AnyObject) {
+        sideNavigationController?.toggleLeftView()
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        var value2 = value.sort(>)
-        print(value2)
-
-
+    }
+    
+    func prepareRaisedButtonAction() {
+        faltButton.titleLabel?.font = RobotoFont.mediumWithSize(17)
+        
     }
 
 

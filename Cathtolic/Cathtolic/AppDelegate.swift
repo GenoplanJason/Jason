@@ -8,22 +8,23 @@
 
 
 import UIKit
-
+import Material
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
     var window: UIWindow?
-
-
-
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-    // Override point for customization after application launch.
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let rootViewController = storyboard.instantiateViewControllerWithIdentifier("RootViewController") as! RootViewController
+        let sideViewController = storyboard.instantiateViewControllerWithIdentifier("SideViewController") as! SideViewController
+        
+        // Configure the window with the SideNavigationController as the root view controller
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        window?.rootViewController = SideNavigationController(rootViewController: rootViewController, leftViewController: sideViewController)
+        window?.makeKeyAndVisible()
+        
     return true
     }
-
 
     func applicationWillResignActive(application: UIApplication) {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

@@ -5,6 +5,7 @@
 
 target 'Cathtolic' do
 pod 'Material', '~> 1.0'
+pod 'MaterialControls', '~> 1.1.0'
 end
 
 target 'CathtolicTests' do
