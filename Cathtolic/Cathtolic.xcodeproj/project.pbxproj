@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A2390381D19DCCBF843FC81 /* CathtolicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A239CD1C459A4DC0B9E7C5D /* CathtolicTests.swift */; };
+		2A239360AC3B779AA6F1C464 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A2398FE617DE43D4F675703 /* Info.plist */; };
+		2A23963B53AE488C8F9D5A94 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A2394897937036A27726496 /* Info.plist */; };
+		2A2398E02ED10241F303F94E /* CathtolicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A239C9FCC522CB6D8E9FE3B /* CathtolicUITests.swift */; };
+		2A23993508DCBB5E6DA69256 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A239172B019179AAD9E1631 /* ViewController.swift */; };
+		2A239943878E966445CE868B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A23906456352DBA8195FFF8 /* LaunchScreen.storyboard */; };
+		2A2399FD9AA99357C1EFE66A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A23920987880773C10116AC /* Main.storyboard */; };
+		2A239A07F704F9F2AD913B45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A23903C8D8CA30727937BC0 /* Assets.xcassets */; };
+		2A239A085EAAB87A8CF3C55B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A23957E76ECC9C5C09F0BF4 /* Info.plist */; };
+		2A239FFE4308A4A91122C535 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2396DB0ABD7F9459B21A5C /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A23946EEA6CEEE3B5D7D12E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A2394DDA8434B2C25037E2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A2394EF63C83A69FD9C4B91;
+			remoteInfo = Cathtolic;
+		};
+		2A23990194439598A39AEEAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A2394DDA8434B2C25037E2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A2394EF63C83A69FD9C4B91;
+			remoteInfo = Cathtolic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A23903C8D8CA30727937BC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A239172B019179AAD9E1631 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A2394897937036A27726496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		2A2394E8AA32C02AEA0008D0 /* CathtolicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CathtolicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A23957E76ECC9C5C09F0BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		2A2395F9611445D6211C7FA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A23961BF7B03C25B25D540E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A2396DB0ABD7F9459B21A5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A2398107E623B5BFE7457B0 /* CathtolicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CathtolicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2398FE617DE43D4F675703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		2A239C9FCC522CB6D8E9FE3B /* CathtolicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CathtolicUITests.swift; sourceTree = "<group>"; };
+		2A239CD1C459A4DC0B9E7C5D /* CathtolicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CathtolicTests.swift; sourceTree = "<group>"; };
+		2A239CF4A5578CB76E17ADA2 /* Cathtolic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cathtolic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A239B3407E6C917248C3186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A239D0A4A4FD68BC9E2B268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A239DCE0E792EBF37EBA18D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A2392A8463FC5647333AB10 /* CathtolicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A2398FE617DE43D4F675703 /* Info.plist */,
+				2A239C9FCC522CB6D8E9FE3B /* CathtolicUITests.swift */,
+			);
+			path = CathtolicUITests;
+			sourceTree = "<group>";
+		};
+		2A239ABD985FADDD6E6071FC /* CathtolicTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A2394897937036A27726496 /* Info.plist */,
+				2A239CD1C459A4DC0B9E7C5D /* CathtolicTests.swift */,
+			);
+			path = CathtolicTests;
+			sourceTree = "<group>";
+		};
+		2A239C27CE7CE2799E4DC77F = {
+			isa = PBXGroup;
+			children = (
+				2A239EC7B982A39D5706C6ED /* Products */,
+				2A239ED5E8131242DBC8C263 /* Cathtolic */,
+				2A239ABD985FADDD6E6071FC /* CathtolicTests */,
+				2A2392A8463FC5647333AB10 /* CathtolicUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		2A239EC7B982A39D5706C6ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A239CF4A5578CB76E17ADA2 /* Cathtolic.app */,
+				2A2394E8AA32C02AEA0008D0 /* CathtolicTests.xctest */,
+				2A2398107E623B5BFE7457B0 /* CathtolicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A239ED5E8131242DBC8C263 /* Cathtolic */ = {
+			isa = PBXGroup;
+			children = (
+				2A23957E76ECC9C5C09F0BF4 /* Info.plist */,
+				2A23903C8D8CA30727937BC0 /* Assets.xcassets */,
+				2A23906456352DBA8195FFF8 /* LaunchScreen.storyboard */,
+				2A2396DB0ABD7F9459B21A5C /* AppDelegate.swift */,
+				2A23920987880773C10116AC /* Main.storyboard */,
+				2A239172B019179AAD9E1631 /* ViewController.swift */,
+			);
+			path = Cathtolic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A2394EF63C83A69FD9C4B91 /* Cathtolic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A239F5E1823A42CA6DE95AC /* Build configuration list for PBXNativeTarget "Cathtolic" */;
+			buildPhases = (
+				2A2398A28043F12CD72E5EA1 /* Sources */,
+				2A239D0A4A4FD68BC9E2B268 /* Frameworks */,
+				2A239AF400B5E4A29E693189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cathtolic;
+			productName = Cathtolic;
+			productReference = 2A239CF4A5578CB76E17ADA2 /* Cathtolic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A2397F9B325DD733D4F5A1B /* CathtolicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A2395FE482CAD423610F30F /* Build configuration list for PBXNativeTarget "CathtolicTests" */;
+			buildPhases = (
+				2A2397303F286019345A6B44 /* Sources */,
+				2A239DCE0E792EBF37EBA18D /* Frameworks */,
+				2A23900B826DF2A35E920312 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A2398BD79571E6C6B85F774 /* PBXTargetDependency */,
+			);
+			name = CathtolicTests;
+			productName = CathtolicTests;
+			productReference = 2A2394E8AA32C02AEA0008D0 /* CathtolicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A239DB27B5F4372FCDBF522 /* CathtolicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A239196362840C9F72B5EDF /* Build configuration list for PBXNativeTarget "CathtolicUITests" */;
+			buildPhases = (
+				2A2395B806854B259EC05C9A /* Sources */,
+				2A239B3407E6C917248C3186 /* Frameworks */,
+				2A23940CC9942D08B71C38BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A239605114500BCADE981CD /* PBXTargetDependency */,
+			);
+			name = CathtolicUITests;
+			productName = CathtolicUITests;
+			productReference = 2A2398107E623B5BFE7457B0 /* CathtolicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A2394DDA8434B2C25037E2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0730;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = 2A23908614318B7D8CFC116A /* Build configuration list for PBXProject "Cathtolic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A239C27CE7CE2799E4DC77F;
+			productRefGroup = 2A239EC7B982A39D5706C6ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A2394EF63C83A69FD9C4B91 /* Cathtolic */,
+				2A2397F9B325DD733D4F5A1B /* CathtolicTests */,
+				2A239DB27B5F4372FCDBF522 /* CathtolicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A23900B826DF2A35E920312 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A23963B53AE488C8F9D5A94 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A23940CC9942D08B71C38BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A239360AC3B779AA6F1C464 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A239AF400B5E4A29E693189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A239A085EAAB87A8CF3C55B /* Info.plist in Resources */,
+				2A239A07F704F9F2AD913B45 /* Assets.xcassets in Resources */,
+				2A239943878E966445CE868B /* LaunchScreen.storyboard in Resources */,
+				2A2399FD9AA99357C1EFE66A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A2395B806854B259EC05C9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2398E02ED10241F303F94E /* CathtolicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2397303F286019345A6B44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2390381D19DCCBF843FC81 /* CathtolicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2398A28043F12CD72E5EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A239FFE4308A4A91122C535 /* AppDelegate.swift in Sources */,
+				2A23993508DCBB5E6DA69256 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A239605114500BCADE981CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A2394EF63C83A69FD9C4B91 /* Cathtolic */;
+			targetProxy = 2A23990194439598A39AEEAA /* PBXContainerItemProxy */;
+		};
+		2A2398BD79571E6C6B85F774 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A2394EF63C83A69FD9C4B91 /* Cathtolic */;
+			targetProxy = 2A23946EEA6CEEE3B5D7D12E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A23906456352DBA8195FFF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A2395F9611445D6211C7FA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2A23920987880773C10116AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A23961BF7B03C25B25D540E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A2391FD8925577573BCA75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A2393F21315B43E81B9EB9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cathtolic.app/Cathtolic";
+				INFOPLIST_FILE = CathtolicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yoon.CathtolicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		2A239441489DC90B92177082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cathtolic.app/Cathtolic";
+				INFOPLIST_FILE = CathtolicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yoon.CathtolicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		2A239AEEC2071D0C38B09B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cathtolic.app/Cathtolic";
+				INFOPLIST_FILE = CathtolicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yoon.CathtolicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		2A239BA3F34943DC9013E89C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cathtolic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yoon.Cathtolic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2A239BBEC5635D17F7A1FEF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cathtolic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yoon.Cathtolic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A239E413574179016477F85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cathtolic.app/Cathtolic";
+				INFOPLIST_FILE = CathtolicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yoon.CathtolicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		2A239E909FC76B2977A386CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A23908614318B7D8CFC116A /* Build configuration list for PBXProject "Cathtolic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2391FD8925577573BCA75C /* Debug */,
+				2A239E909FC76B2977A386CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A239196362840C9F72B5EDF /* Build configuration list for PBXNativeTarget "CathtolicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A239441489DC90B92177082 /* Debug */,
+				2A239AEEC2071D0C38B09B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A2395FE482CAD423610F30F /* Build configuration list for PBXNativeTarget "CathtolicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A239E413574179016477F85 /* Debug */,
+				2A2393F21315B43E81B9EB9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A239F5E1823A42CA6DE95AC /* Build configuration list for PBXNativeTarget "Cathtolic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A239BBEC5635D17F7A1FEF2 /* Debug */,
+				2A239BA3F34943DC9013E89C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A2394DDA8434B2C25037E2B /* Project object */;
+}
